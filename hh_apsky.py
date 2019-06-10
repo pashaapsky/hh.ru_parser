@@ -38,7 +38,8 @@ def hh_parse(base_url, headers):
             })
             print(jobs)
             print('--'*8)
+            print('hello')
     else:
-        print('Error')
+        print('Error in parser')
 
 hh_parse(base_url, headers1)
